@@ -1,9 +1,7 @@
 package data
 
-import "github.com/FireCoinJp/quant-core/core/data"
-
 type OrderResProtocol interface {
-    ToOrder() data.Order
+    ToOrder() Order
     GetOrderID() string
 }
 
